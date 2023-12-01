@@ -16,6 +16,7 @@
 		7E8D7E352B1A582700196833 /* Quiz_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7E342B1A582700196833 /* Quiz_AppTests.swift */; };
 		7E8D7E3F2B1A582700196833 /* Quiz_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7E3E2B1A582700196833 /* Quiz_AppUITests.swift */; };
 		7E8D7E412B1A582700196833 /* Quiz_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7E402B1A582700196833 /* Quiz_AppUITestsLaunchTests.swift */; };
+		7E8D7E4E2B1A58FE00196833 /* Swift Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7E4D2B1A58FE00196833 /* Swift Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7E8D7E3A2B1A582700196833 /* Quiz AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8D7E3E2B1A582700196833 /* Quiz_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_AppUITests.swift; sourceTree = "<group>"; };
 		7E8D7E402B1A582700196833 /* Quiz_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E8D7E4D2B1A58FE00196833 /* Swift Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift Quiz.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		7E8D7E112B1A582200196833 = {
 			isa = PBXGroup;
 			children = (
+				7E8D7E4D2B1A58FE00196833 /* Swift Quiz.swift */,
 				7E8D7E1C2B1A582200196833 /* Quiz App */,
 				7E8D7E332B1A582700196833 /* Quiz AppTests */,
 				7E8D7E3D2B1A582700196833 /* Quiz AppUITests */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E8D7E222B1A582200196833 /* ViewController.swift in Sources */,
+				7E8D7E4E2B1A58FE00196833 /* Swift Quiz.swift in Sources */,
 				7E8D7E1E2B1A582200196833 /* AppDelegate.swift in Sources */,
 				7E8D7E202B1A582200196833 /* SceneDelegate.swift in Sources */,
 			);

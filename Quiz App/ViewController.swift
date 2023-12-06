@@ -18,27 +18,51 @@ var score = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        
+        // Do any additional setup after loading the vie
                                      
-        questionName.text = Questions[0].question
+        questionName.text = Questions[index].question
+        Score.text = "Score: \(score)"
         
     }
 
     @IBOutlet weak var questionName: UILabel!
     
+    @IBOutlet weak var Score: UILabel!
+    
     @IBOutlet weak var answerTextField: UITextField!
     
     @IBAction func replay(_ sender: Any) {
-        
+        if index == Questions.count - 1{
+            index = 0
+            score = 0
+            
+            questionName.text = Questions[index].question
+            Score.text = "Score: \(score)"
+        }
     }
     
     @IBAction func Checkanswer(_ sender: Any) {
-      
+        var current = answerTextField.text
+        
+        if current?.lowercased().trimmingCharacters(in:
+                .whitespacesAndNewlines) == Questions[index].answer.lowercased().trimmingCharacters(in: .whitespaces){
+            score += 1
+            Score.text = "Score : \(score)"
+            answerTextField.text = nil
+            if index < Questions.count{
+                index += 1
+                questionName.text = Questions[index].question
+            }
+        }
+        
     }
     @IBAction func next(_ sender: UIButton) {
+    
+    
     }
+    
+    
+    
     
 }
 

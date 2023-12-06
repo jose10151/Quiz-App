@@ -56,11 +56,7 @@ var score = 0
         }
         
     }
-    @IBAction func next(_ sender: UIButton) {
-    
-    
-    }
-    
+ 
     
     
     

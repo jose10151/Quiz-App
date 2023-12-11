@@ -77,6 +77,7 @@
                     <connections>
                         <outlet property="Score" destination="K4k-Ku-xWU" id="9t4-Lh-BtV"/>
                         <outlet property="answerTextField" destination="Qud-Du-Ajc" id="EsL-14-cjy"/>
+                        <outlet property="checkButton" destination="PoQ-jh-7XQ" id="eYR-Fm-0s4"/>
                         <outlet property="questionName" destination="wOD-AO-qHc" id="eBR-PZ-zex"/>
                     </connections>
                 </viewController>
